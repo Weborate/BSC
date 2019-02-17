@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Tájfutás - Balatonfüredi Sport Club",
+    "name": "BSC",
     "currentPage": "index.html",
     "theme": {
       "name": "purity",
@@ -17,19 +17,14 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "publishType": "local",
-    "publishPath": "file:///C:/webserver/www/bsc",
-    "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/220px-orienteering-symbol-framed-128x127.png",
-    "noImageResize": "",
-    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-134684645-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-134684645-1');\r\n</script>",
-    "сanonical-url": ""
+    "publishPath": "file:///C:/webserver/www/bsc"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Tájfutás - Balatonfüredi Sport Club",
-        "meta_descr": "A tájfutás egy olyan sport, ahol a versenyzőnek térkép és tájoló segítségével, pontokat érintve, a legrövidebb idő alatt kell végigfutni. A versenyző az ellenőrzőpontok között maga választja meg az útvonalát. ",
+        "title": "Home",
+        "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""

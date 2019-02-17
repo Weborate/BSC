@@ -174,17 +174,6 @@ h1, h2, h3, h4, h5, h6,
   padding-top: 9rem;
   padding-bottom: 9rem; }
 
-.mbr-table-cell-lg {
-  position: relative;
-  display: table-cell;
-  vertical-align: middle;
-  padding-top: 0;
-  padding-bottom: 0;
-  float: none; }
-
-@media (max-width: 991px) {
-  .mbr-table-cell-lg {
-    display: block; } }
 .mbr-inner-padding {
   padding: 4rem; }
 
@@ -329,6 +318,7 @@ footer.mbr-footer {
   font-size: 35px;
   bottom: 71px;
   left: 50%;
+  text-decoration: none !important;
   width: 30px;
   margin-left: -15px;
   line-height: 1px;
@@ -658,6 +648,17 @@ footer.mbr-footer {
   display: block;
   margin-top: 0.2em; }
 
+.mbr-table-cell-lg {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 0;
+  padding-bottom: 0;
+  float: none; }
+
+@media (max-width: 991px) {
+  .mbr-table-cell-lg {
+    display: block; } }
 /*image-resize*/
 .image-size .mbr-figure {
   text-align: center; }
