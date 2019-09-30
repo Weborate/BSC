@@ -12,12 +12,12 @@
       ]
     },
     "versionFirst": "4.5.4",
-    "uniqCompNum": 21,
+    "uniqCompNum": 17,
     "versionPublish": "4.9.3",
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "publishType": "local",
-    "publishPath": "file:///C:/webserver/www/arch%C3%ADv/BSC",
+    "publishPath": "file:///C:/webserver/www/bsc",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/220px-orienteering-symbol-framed-128x127.png",
     "noImageResize": "",
@@ -151,13 +151,13 @@
             }
           },
           "title": "Edzések",
-          "text": "<p>Minden héten:<br><span style=\"font-size: 1.25rem;\">◪ kedden 16:00-kor.<br></span><span style=\"font-size: 1.25rem;\">◪ csütörtökön 16:00-kor<br>\n</span><span style=\"font-size: 1.25rem;\">◪ szombaton 10:00-kor.&nbsp;</span></p>",
+          "text": "<p>Minden héten:<br><span style=\"font-size: 1.25rem;\">◪ csütörtökön 16:00-kor.<br></span><span style=\"font-size: 1.25rem;\">◪ szombaton 10:00-kor</span></p>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
           "meta": "By John Smith posted July 30, 2015",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"index.html#form1-5\" data-toolbar=\"-mbrBtnMove\">Próbáld ki!</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"index.html#form1-5\" data-toolbar=\"-mbrBtnMove\">Érdekel!</a>",
           "_name": "msg-box4",
           "_anchor": "msg-box4-a"
         },
@@ -171,7 +171,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/map_lengyel-1920x473.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -301,6 +301,22 @@
         },
         {
           "_params": {
+            "googleMap": {
+              "address": "Balatonfüred",
+              "placeId": "ChIJ_-rTPhK9aUcRoBseDCnEAAQ",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map2",
+          "_anchor": "map2-7"
+        },
+        {
+          "_params": {
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": false,
@@ -319,34 +335,6 @@
           ],
           "_name": "footer1",
           "_anchor": "footer1-3"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/map_lengyel-2-1921x750.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#fff",
-            "overlayOpacity": "0.3"
-          },
-          "title": "",
-          "caption": "",
-          "alias": "purity/components",
-          "_tags": [
-            "Téma"
-          ],
-          "_name": "content5",
-          "_anchor": "content5-k"
         }
       ]
     }
