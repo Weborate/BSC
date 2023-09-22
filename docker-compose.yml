@@ -1,0 +1,13 @@
+version: '3'
+services:
+    web:
+        image: litespeedtech/openlitespeed:latest
+        working_dir: /var/www/vhosts/localhost/html
+        container_name: bsc-web
+        restart: unless-stopped
+        environment:
+            TZ: Europe/Budapest
+        ports:
+            - ${PORT:-8080}:80
+        volumes:
+            - ./html/:/var/www/vhosts/localhost/html
