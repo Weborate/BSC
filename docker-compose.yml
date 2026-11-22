@@ -8,6 +8,6 @@ services:
         environment:
             TZ: Europe/Budapest
         ports:
-            - ${PORT:-8080}:80
+            - "${BIND_IP:-127.0.0.1}:${PORT:-8080}:80"
         volumes:
             - ./html/:/var/www/vhosts/localhost/html
